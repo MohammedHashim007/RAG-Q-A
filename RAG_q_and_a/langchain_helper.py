@@ -5,7 +5,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import CSVLoader
 from langchain_community.embeddings import HuggingFaceInstructEmbeddings
 from langchain_community.llms import GooglePalm
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 
 load_dotenv()  # take environment variables from .env or deployment secrets
